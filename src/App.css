@@ -1,0 +1,47 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: rgba(0, 0, 0, 0.881);
+}
+
+.container {
+  padding: 20px ;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: rgba(80, 80, 80, 0.295);
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+
+.text{
+  color: white;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-top: 350px;
+}
